@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Color Palette
+#008080 - teal
+#F5FFFA- mint cream
+#66CDAA - mediumaquamarine
+#DC143C - crimson
+*/
+
+/* Global styles
+---------------------------*/
+body {
+	
+}
+
+a{
+	color: #DC143C;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/* Header and Footer
+---------------------------*/
+header, footer {
+	background: #008080;
+	color: #F5FFFA;
+}
+
+
+
+
+
+/* Work Experience
+---------------------------*/
+.work{
+	background: #F5FFFA;
+}
+
+
+
+
+
+
+/* Education
+---------------------------*/
+.education{
+	background: #66CDAA;
+}
