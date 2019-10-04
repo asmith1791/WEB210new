@@ -45,18 +45,7 @@ a:hover{
 	overflow: auto;
 }
 
-.col-narrow{
-	width: 30%;
-	float: left;
-	min-height: 180px;
-}
 
-.col-wide{
-	width: 70%;
-	float: left;
-	padding-left: 20px;
-	min-height: 180px;
-}
 /* Header and Footer
 ---------------------------*/
 header, footer {
@@ -93,16 +82,18 @@ footer{
 
 .nav {
   background: #66CDAA;
+  font-size: 0;
   }
   
 .nav ul li{
-  font: bold 12px 18px sans-serif;
+  font: 16px sans-serif;
   display: inline-block;
   position: relative;
-  padding: 15px 20px;
+  padding: 15px;
   background:  #008080;
   cursor: pointer;
   color: #F5FFFA;
+  
 }
 .nav ul li:hover{
   background:#DC143C;
@@ -125,6 +116,7 @@ footer{
 .nav ul li:hover ul{
   display: block;
   left: 0px;
+  
 }
 
 
@@ -143,4 +135,28 @@ footer{
 ---------------------------*/
 .education{
 	background: #66CDAA;
+}
+
+
+
+/* Media Queries
+__________________________*/
+@media (min-width: 850px){
+	.col-narrow{
+	  width: 30%;
+	  float: left;
+	  min-height: 180px;
+}
+
+   .col-wide{
+	  width: 70%;
+	  float: left;
+	  padding-left: 20px;
+	  min-height: 180px;
+   }
+}
+@media (max-width: 849px){
+	.profile-img{
+		width: 200px;
+	}
 }
